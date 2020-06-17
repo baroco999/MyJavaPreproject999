@@ -86,7 +86,7 @@ class StC {
             }
             r.append('\"');
             if (r.length() > 40) {
-                r.delete​(40, r.length());
+                r.delete(40, r.length());
                 r.append(new char[]{'.', '.', '.'});
             }
             return new String (r);
@@ -113,7 +113,7 @@ class StC {
             }
             r.append('\"');
             if (r.length() > 40) {
-                r.delete​(40, r.length());
+                r.delete(40, r.length());
                 r.append(new char[]{'.', '.', '.'});
             }
             return new String (r);
